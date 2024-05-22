@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "farefirst-debug-deeplink",
     "public": ".",
     "ignore": [
       "firebase.json",
