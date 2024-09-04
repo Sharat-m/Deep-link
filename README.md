@@ -3,3 +3,8 @@ The deep-link project is webpage with urls to check the working
 - cmd
 - firebase init
 - firebase deploy
+
+
+- Check the project 
+- firebase projects:list  and set to debug
+- 
