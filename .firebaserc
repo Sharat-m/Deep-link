@@ -1,4 +1,27 @@
 {
+  "targets": {
+    "farefirst-debug": {
+      "hosting": {
+        "ff-debug": [
+          "ff-deeplink-debug"
+        ]
+      }
+    },
+    "farefirst-staging": {
+      "hosting": {
+        "ff-staging": [
+          "ff-deeplink-staging"
+        ]
+      }
+    },
+    "airwaysbooking-71f41": {
+      "hosting": {
+        "ff-production": [
+          "ff-deeplink"
+        ]
+      }
+    }
+  },
   "projects": {
     "default": "farefirst-debug"
   }

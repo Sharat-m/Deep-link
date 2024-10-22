@@ -1,37 +1,97 @@
 {
-  "hosting": {
-    "site": "farefirst-debug-deeplink",
-    "public": ".",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "rewrites": [
-      {
-        "source": "/deep-link-test",
-        "destination": "/deep-link-test.html"
-      },
-      {
-        "source": "/cars.html",
-        "destination": "/pages/cars.html"
-      },
-      {
-        "source": "/chauffer.html",
-        "destination": "/pages/chauffer.html"
-      },
-      {
-        "source": "/esim.html",
-        "destination": "/pages/esim.html"
-      },
-      {
-        "source": "/taxi.html",
-        "destination": "/pages/taxi.html"
-      },
-      {
-        "source": "/trips.html",
-        "destination": "/pages/trips.html"
-      }
-    ]
-  }
+  "hosting": [
+    {
+      "target": "ff-debug",
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/index.html"
+        },
+        {
+          "source": "/cars.html",
+          "destination": "/pages/cars.html"
+        },
+        {
+          "source": "/chauffer.html",
+          "destination": "/pages/chauffer.html"
+        },
+        {
+          "source": "/esim.html",
+          "destination": "/pages/esim.html"
+        },
+        {
+          "source": "/taxi.html",
+          "destination": "/pages/taxi.html"
+        },
+        {
+          "source": "/trips.html",
+          "destination": "/pages/trips.html"
+        }
+      ]
+    },
+    {
+      "target": "ff-staging",
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/index.html"
+        },
+        {
+          "source": "/cars.html",
+          "destination": "/pages/cars.html"
+        },
+        {
+          "source": "/chauffer.html",
+          "destination": "/pages/chauffer.html"
+        },
+        {
+          "source": "/esim.html",
+          "destination": "/pages/esim.html"
+        },
+        {
+          "source": "/taxi.html",
+          "destination": "/pages/taxi.html"
+        },
+        {
+          "source": "/trips.html",
+          "destination": "/pages/trips.html"
+        }
+      ]
+    },
+    {
+      "target": "ff-production",
+      "public": "public",
+      "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+      "rewrites": [
+        {
+          "source": "/",
+          "destination": "/index.html"
+        },
+        {
+          "source": "/cars.html",
+          "destination": "/pages/cars.html"
+        },
+        {
+          "source": "/chauffer.html",
+          "destination": "/pages/chauffer.html"
+        },
+        {
+          "source": "/esim.html",
+          "destination": "/pages/esim.html"
+        },
+        {
+          "source": "/taxi.html",
+          "destination": "/pages/taxi.html"
+        },
+        {
+          "source": "/trips.html",
+          "destination": "/pages/trips.html"
+        }
+      ]
+    }
+  ]
 }
