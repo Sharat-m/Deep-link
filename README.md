@@ -3,6 +3,7 @@ The deep-link project is webpage with urls to check the working
 - cmd
 - firebase init
 - firebase serve
+url: http://localhost:5000/deep-link-test 
 - firebase deploy
 
 
